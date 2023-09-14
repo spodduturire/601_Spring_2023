@@ -1,25 +1,18 @@
-# Course Blog Template
+# Data Science Fundamentals
 
-This is the generic DACSS course blog hosted on GitHub pages. Students will create a templated repository, work in RStudio to create new posts, and then commit and push the changes prior to submitting a pull request to main repository. 
+This repository contains 8 R programming challenges and a Final Project. Various datasets were used for these challenges which were in .csv, .xlsx formats.
+We first start by reading in datasets and then tidying them such that we can perform data analysis. Some of these tasks include-
 
-# Setup R Course blog (for Students)
-If this is your first time setting up a DACSS course blog repository, or if you have forgotten how, please consult the [youtube playlist](https://www.youtube.com/watch?v=8ozMX5V_ESk&list=PL8U9JlL13ieeR7QqDM1R8dpvvFWBjNY4N) on setting up your GitHub account, linking to R, and setting up a course blog.
+1) Grouping Dataset Columns
+2) Summarizing Datasets
+3) Data Wrangling Methods
+4) Pivoting Datasets around axes
 
-# Weekly Workflow (for Students) 
-[Video Link](https://www.loom.com/share/6c15f27ed592423c96613f8f876548cf)
-- Create a New Post
-- Render the .qmd file
-- Commit and Push Changes to Github
-- Make a Pull Request -  - be sure to add your name to the pull request message
+The data is then visualized so that we can notice different patterns and trends in the data. Some of the visualization methods include -
 
+1) Univariate, Bivariate graphs
+2) Time-series Graphs
+3) Part-Whole Graphs
+4) Multiple Dimension Visualizations
 
-## Creating a New Post 
-
-You can create a new post by following the below steps
-
- - Open the any .qmd file which is in the _templates folder that you want to work on.
- - Click on `File` -> '`Save As` -> open the posts folder in your Project repository
- - Change the file name to "filedescription_FirstLast.qmd"
- - Save it.
- - Now Open the saved post which is in the posts folder
- - Edit your Post
+The posts directory has the .qmd files for all the challenges. The _freeze/posts directory holds the results from executing the files in RStudio.
